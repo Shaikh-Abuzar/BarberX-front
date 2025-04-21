@@ -1,0 +1,14 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+input, select {
+  font-family: inherit;
+}
+
+h1, h2 {
+  margin: 0 0 10px;
+}

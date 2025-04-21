@@ -1,0 +1,61 @@
+/* /src/styles/Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #6a0dad; /* Jamni color (Purple) */
+  color: #ffffff;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f9a8d4; /* Light pink */
+}
+
+.navbar__logo img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar__links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar__links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar__links li a:hover {
+  color: #f9a8d4; /* Light pink on hover */
+}
+
+.navbar__search input {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 2px solid #9b006e; /* Dark pink border */
+  outline: none;
+  width: 200px;
+  background-color: #ffffff; /* White background for search bar */
+  color: #000000; /* Black text color */
+}
+
+.navbar__profile img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #f9a8d4; /* Light pink border around profile image */
+}
